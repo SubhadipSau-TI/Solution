@@ -8,11 +8,11 @@ def partition(arr, value):
         else:
             larger.append(num)
 
-    return [smaller, larger]
+    return smaller,larger
 
 
 
-input_array = [1, 4, 2, 5, 3, 7]
-split_value = 3
-result = partition(input_array, split_value)
+arr = [1, 4, 2, 5, 3, 7]
+value = 3
+print(partition(arr,value))
 
